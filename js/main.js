@@ -397,7 +397,7 @@ $(document).on({
 });
 
 function generateMetroBanner(){
-    $("#metro-banner").AddMetroDoubleButton('newsite', 'metro-green', '', 'This site has been removed to https://huawei-hisi.github.com', "location.href=\'https://huawei-hisi.github.com\'");
+    $("#metro-banner").AddMetroDoubleButton('newsite', 'metro-green', '', 'This site has been moved to https://huawei-hisi.github.com', "location.href=\'https://huawei-hisi.github.com\'");
 }
 
 $(document).ready(function () {
