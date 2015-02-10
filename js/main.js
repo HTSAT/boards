@@ -397,10 +397,7 @@ $(document).on({
 });
 
 function generateMetroBanner(){
-    $("#metro-banner").AddMetroDoubleButton('metro-lava', 'metro-green', '', 'HTSAT-LAVA', "location.href=\'http://htsat.vicp.cc:800\'");
-    $("#metro-banner").AddMetroDoubleButton('metro-gitserver', 'metro-pink', '', 'HTSAT-SERVER', "location.href=\'http://htsat.vicp.cc:801\'");
-    $("#metro-banner").AddMetroSimpleButton('metro-D01', 'metro-pink', '', 'D01', "location.href=\'/tags/D01\'");
-    $("#metro-banner").AddMetroSimpleButton('metro-D01', 'metro-blue', '', 'D02', "location.href=\'/tags/D02\'");
+    $("#metro-banner").AddMetroDoubleButton('newsite', 'metro-green', '', 'This site has been removed to https://huawei-hisi.github.com', "location.href=\'https://huawei-hisi.github.com\'");
 }
 
 $(document).ready(function () {
